@@ -26,7 +26,7 @@ public class Book {
     }
 
     public String toString() {
-        return String.valueOf(this.authorName.getAuthor() + " - " + name + " - " + publishingYear);
+        return this.authorName.getAuthor() + " - " + name + " - " + publishingYear;
     }
 }
 
