@@ -9,7 +9,9 @@ public class Main {
         System.out.println(book1);
         System.out.println(book2.getPublishingYear());
         System.out.println(book1.getName());
-
+        System.out.println(book1.getAuthorName().getLastName());
+        System.out.println(book2.getAuthorName().getFirstName());
+        System.out.println(book2.getAuthorName().getAuthor());
 
     }
 }
