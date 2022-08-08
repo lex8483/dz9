@@ -15,6 +15,6 @@ public class Main {
         System.out.println(book2.getAuthorName().getFirstName());
         System.out.println(book2.getAuthorName().getAuthor());
         System.out.println(book1.equals(book2));
-        System.out.println(book1.getName().hashCode());
+        System.out.println(name1.hashCode());
     }
 }
